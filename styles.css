@@ -1,0 +1,708 @@
+body{
+    margin: 0;
+}
+/*navbar*/
+.navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+}
+
+.panier{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panier img{
+    height: 80%;
+    border-radius: 20%;
+}
+
+.panier img:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    width: 50%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.contact{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact img{
+    height: 80%;
+    border-radius: 20%;
+}
+.contact img:hover{
+    transform: scale(1.2);
+}
+/*div generale*/
+.conteneurgenerale{
+    position: relative;
+    width: 100%;
+    height: 700vh;
+    top: 12vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/*conteneur ecran*/
+.conteneurecran{
+    width: 90%;
+    height: 560vh;
+    margin-bottom: 3vh;
+}
+/*ecran1*/
+.ecran1{
+    width: 100%;
+    height:  60vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg1{
+    width: 100%;
+    height: 80%;
+}
+.ecranimg1 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran1{
+    width: 100%;
+     height: 20%;
+     background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1prixecran1{
+    width: 70%;
+    height: 100%;
+}
+.img1prixecran1 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2prixecran1{
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+}
+
+.imge2prixecran1:hover{
+  transform: scale(1.2);
+}
+/*ecran2*/
+.ecran2{
+    width: 100%;
+    height:  60vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg2{
+    width: 100%;
+    height: 80%;    
+}
+.ecranimg2 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran2{
+    width: 100%;
+     height: 20%;
+    background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1ecranimg2{
+    width: 70%;
+    height: 100%;
+     
+}
+.img1ecranimg2 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2cranimg2{
+     width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+}
+.imge2cranimg2:hover{
+    transform: scale(1.2);
+  }
+/*ecrn3*/
+.ecran3{
+    width: 100%;
+    height:  60vh;
+     
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg3{
+    width: 100%;
+    height: 80%;
+     
+}
+.ecranimg3 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran3{
+    width: 100%;
+     height: 20%;
+    background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1ecranimg3{
+    width: 70%;
+    height: 100%;
+     
+}
+.img1ecranimg3 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2cranimg3{
+     width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+}
+.imge2cranimg3:hover{
+    transform: scale(1.2);
+  }
+/*ecran 4*/
+.ecran4{
+    width: 100%;
+    height:  60vh;
+     
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg4{
+    width: 100%;
+    height: 80%;
+     
+}
+.ecranimg4 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran4{
+    width: 100%;
+     height: 20%;
+    background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1ecranimg4{
+    width: 70%;
+    height: 100%;
+     
+}
+.img1ecranimg4 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2cranimg4{
+      width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+    .imge2cranimg4:hover{
+        transform: scale(1.2);
+      }
+
+/*ecran5*/
+.ecran5{
+    width: 100%;
+    height:  60vh;
+     
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg5{
+    width: 100%;
+    height: 80%;
+     
+}
+.ecranimg5 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran5{
+    width: 100%;
+     height: 20%;
+    background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1ecranimg5{
+    width: 70%;
+    height: 100%;
+     
+}
+.img1ecranimg5 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2cranimg5{
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+    .imge2cranimg5:hover{
+        transform: scale(1.2);
+      }
+/*ecran6*/
+.ecran6{
+    width: 100%;
+    height:  60vh;
+     
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg6{
+    width: 100%;
+    height: 80%;
+     
+}
+.ecranimg6 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran6{
+    width: 100%;
+     height: 20%;
+    background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1ecranimg6{
+    width: 70%;
+    height: 100%;
+     
+}
+.img1ecranimg6 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2cranimg6{
+     width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+    .imge2cranimg6:hover{
+        transform: scale(1.2);
+      }
+/*cran 7*/
+.ecran7{
+    width: 100%;
+    height:  60vh;
+     
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg7{
+    width: 100%;
+    height: 80%;
+     
+}
+.ecranimg7 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran7{
+    width: 100%;
+     height: 20%;
+    background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1ecranimg7{
+    width: 70%;
+    height: 100%;
+     
+}
+.img1ecranimg7 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2cranimg7{
+     width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    animation: shake 5s ease-in-out infinite; 
+    }
+    .imge2cranimg7:hover{
+        transform: scale(1.2);
+      }
+/*ecran 8*/
+.ecran8{
+    width: 100%;
+    height:  60vh;
+     
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg8{
+    width: 100%;
+    height: 80%;
+     
+}
+.ecranimg8 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran8{
+    width: 100%;
+     height: 20%;
+    background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1ecranimg8{
+    width: 70%;
+    height: 100%;
+     
+}
+.img1ecranimg8 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2cranimg8{
+     width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+}
+.imge2cranimg8:hover{
+    transform: scale(1.2);
+  }
+/*ecarn9*/
+.ecran9{
+    width: 100%;
+    height:  60vh;
+     
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+.ecranimg9{
+    width: 100%;
+    height: 80%;
+     
+}
+.ecranimg9 img{
+    width: 100%;
+    height: 100%;
+}
+.prixecran9{
+    width: 100%;
+     height: 20%;
+    background-color: rgb(16, 218, 218);
+    display: flex;
+}
+.img1ecranimg9{
+    width: 70%;
+    height: 100%;
+}
+.img1ecranimg9 img{
+    width: 100%;
+    height: 100%;
+}
+.imge2cranimg9{
+   width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite;    
+}
+.imge2cranimg9:hover{
+    transform: scale(1.2);
+  }
+  /*bouton*/
+  /* Styles pour la fenêtre modale */
+.fenetre-modale {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+.contenu-fenetre-modale {
+    background-color: #fefefe;
+    padding: 2%;
+    height: 100vh;
+    margin-top: 10vh;
+
+  }
+.fenetreh1{
+    width: 100%;
+    height: 7vh;
+    font-size: 3vh;
+}
+.fenetrep{
+    width: 100%;
+    height: 70vh;
+    font-size: 2.5vh;
+}
+.fermer {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+.contenu-fenetre-modale h1{
+    border-bottom: 2px solid blue;
+  }
+  .button{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .button button {
+    width: 80vw;
+    height: 3vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    font-size: 100%;
+    animation: shake 4s infinite;
+    }
+
+/*fin conteneur*/
+.montageecran{
+    width: 90%;
+    height: 70vh;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+.pmontage{
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 4vh;
+    font-size: 4vh;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.pmontage p{
+    border-bottom: 2px solid blue;
+}
+.imgmontage{
+    width: 100%;
+    height: 45vh;
+}
+.imgmontage img{
+    width: 100%;
+    height: 100%;
+}
+
+    /*localiser*/
+
+.localiser{
+    width: 90%;
+    height: 70vh;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    width: 100%;
+    height: 7vh;
+    border-bottom: 2px solid blue;
+    font-size: 6vh;
+}
+
+.map{
+    width: 100%;
+    height: 50vh;
+    background-color: bisque;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+/*footer*/
+.footer{
+    width: 90%;
+    height: 10vh;
+    background-color: rgb(130, 141, 238);
+    margin-bottom: 1vh;
+    display: flex;
+    
+}
+.rimg1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rimg1 img{
+    width: 50%;
+    height: 50%;
+  }
+  .rimg2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rimg2 img{
+    width: 50%;
+    height: 50%;
+  }
+  .rimg3{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rimg3 img{
+    width: 50%;
+    height: 50%;
+  }
+  .rimg4{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rimg4 img{
+    width: 50%;
+    height: 50%;
+  }
+  /* fin footer*/
+  
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-3px, 0) rotate(3deg); }
+    50% { transform: translate(0, 0); }
+    75% { transform: translate(0, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+@media screen and (min-width: 500px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .conteneurgenerale{
+        width: 70%;
+    }
+    .navbar{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 769px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .conteneurgenerale{
+        width: 50%;
+    }
+    .navbar{
+        width: 44%;
+    }
+}
